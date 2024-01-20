@@ -4,7 +4,6 @@
 function getComputerChoice() {
     const choice = ['Rock', 'Paper', 'Scissors'];
     const randomRPS = choice[Math.floor(Math.random() * choice.length)];
-    console.log(randomRPS);
     return randomRPS;
   }
 

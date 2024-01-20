@@ -1,6 +1,14 @@
-function getCompiuterChoice(){
-    let rps = ["Rock", "Paper", "Scissors"];
+//--------------------firstt part----------------------------
+//compiuter choice
 
-    console.log(rps[Math.floor(Math.random() * rps.length)]);
+function getComputerChoice() { 
+    let choice = ["Rock", "Paper", "Scissors"]
+    let randomRPS = choice[Math.floor(Math.random() * choice.length)];
+    return randomRPS;
 }
 
+//------------------second part------------------------------
+
+function plarRaund(playerSelection, getComputerChoice){
+    
+}
